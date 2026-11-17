@@ -1,0 +1,39 @@
+{
+    "participant_id": {
+        "Description": "Unique participant label (sub-01 to sub-16)"
+    },
+    "gender": {
+        "Description": "Gender as recorded on the study form",
+        "Levels": {
+            "F": "female",
+            "M": "male"
+        }
+    },
+    "handedness": {
+        "Description": "Self-reported handedness",
+        "Levels": {
+            "right": "right-handed",
+            "left": "left-handed"
+        }
+    },
+    "language": {
+        "Description": "Language background",
+        "Levels": {
+            "monolingual": "Monolingual",
+            "bilingual": "Bilingual"
+        }
+    },
+    "tcre_size_mm": {
+        "Description": "Outer diameter of the tripolar concentric ring electrodes",
+        "Units": "mm"
+    },
+    "electrodes_per_array": {
+        "Description": "Number of TCRE electrodes in each array, in the order F4/P6/F3/P5"
+    },
+    "eog_channels": {
+        "Description": "Channel numbers (1-based) of the two EOG channels, recorded with two standard disc electrodes (not TCREs) placed above and to the right of one eye; labelled EOG in channels.tsv. n/a = no EOG electrodes"
+    },
+    "run_order": {
+        "Description": "Condition of runs 1-4 (one condition per run of 50 trials), one letter per run: O = overt run (pictures named aloud), C = covert run (pictures named silently); e.g. OCCO = overt, covert, covert, overt"
+    }
+}

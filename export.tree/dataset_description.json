@@ -1,0 +1,27 @@
+{
+    "Name": "An EEG Dataset of Overt and Covert Speech Recorded with Tripolar Concentric Ring Electrodes",
+    "BIDSVersion": "1.9.0",
+    "DatasetType": "raw",
+    "License": "CC0",
+    "Authors": [
+        "Paras Qadir Memon",
+        "Shoaib Memon",
+        "Walter G. Besio",
+        "Charles W. Anderson"
+    ],
+    "HowToAcknowledge": "Please cite the data descriptor paper (citation to be added on publication) and the OpenNeuro dataset DOI.",
+    "ReferencesAndLinks": [
+        "https://doi.org/10.3390/s26134084",
+        "https://doi.org/10.3390/s26206587"
+    ],
+    "EthicsApprovals": [
+        "Institutional Review Board of the University of Rhode Island, protocol HU0809-045"
+    ],
+    "GeneratedBy": [
+        {
+            "Name": "MNE-BIDS",
+            "CodeURL": "https://mne.tools/mne-bids/"
+        }
+    ],
+    "DatasetDOI": "doi:10.18112/openneuro.ds008895.v1.1.0"
+}
